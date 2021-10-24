@@ -22,15 +22,13 @@ console.log(sum)
   If it is, return a true boolean. 
   If it's not, return a false boolean.
 */
+let number = 10
 
-function greaterThanFive(number){
   if(number > 5){
-    return "true"
+    console.log("true")
   } else {
-    return "false" }
-  }
-
-let 
+    console.log("false") }
+  
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -40,7 +38,7 @@ let
   If the name does not begin with Z, return the string: 'the name does not begin with Z'.
 */
 
-//CODE HERE
+function findZWords(word)
 
 //////////////////PROBLEM 4////////////////////
 /*

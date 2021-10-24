@@ -22,7 +22,9 @@ console.log(colorCopy)
 
 const numbers = [1, 2, 3, 4, 5]
 
-let middleNums 
+let middleNums = numbers.slice(1,-1)
+
+console.log(middleNums)
 
 
 //////////////////PROBLEM 4////////////////////
@@ -38,4 +40,16 @@ let middleNums
   Return the answers array inside of the function.
 */
 
-// CODE HERE
+function bigOrSmall(arr) {
+  let answers = []
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 100) {
+      answers.push("big")
+    } else {
+      answers.push("small")
+    }
+  }
+  return answers
+}
+
+let arrayEvaluator = bigOrSmall(bigOrSmallArray)
